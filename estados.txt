@@ -1,0 +1,57 @@
+ <div id="select" class="input-field col s12">      
+            <select>
+              <option value="0" disabled selected>Escolha seu Estado</option>
+              <option value="1">AC - Acre</option>
+              <option value="2">AL - Alagoas</option>
+              <option value="3">AP - Amap�</option>
+              <option value="4">AM - Amazonas</option>
+              <option value="5">BA - Bahia</option>
+              <option value="6">CE - Cear�</option>
+              <option value="7">DF - Distrito Federal</option>
+              <option value="8">ES - Espirito Santo</option>
+              <option value="9">MA - Maranh�o</option>
+              <option value="10">MS - Mato Grosso do Sul</option>
+              <option value="11">MT - Mato Grosso</option>
+              <option value="12">MG - Minas Gerais</option>
+              <option value="13">PA - Par�</option>
+              <option value="14">PB - Para�ba</option>
+              <option value="15">PR - Paran�</option>
+              <option value="16">PE - Pernambuco</option>
+              <option value="17">PI - Piau�</option>
+              <option value="18">RJ - Rio de Janeiro</option>
+              <option value="19">RN - Rio Grande do Norte</option>
+              <option value="20">RS - Rio Grande do Sul</option>
+              <option value="21">RO - Rond�nia</option>
+              <option value="22">RR - Roraima</option>
+              <option value="23">SC - Santa Catarina</option>
+              <option value="24">SP - S�o Paulo</option>
+              <option value="25">SE - Sergipe</option>
+              <option value="26">TO - Tocantins</option>
+            </select>
+            <label for="estado">Selecione um Estado</label>
+          </div>
+
+
+
+
+
+
+
+
+          function slcEstados(){
+
+   console.log("dzsfsaa");
+
+  let str = '';
+
+  for(let i = 0; i < estados.length; i++) {
+    str += "<li value='1'> "  + estados[i] + " <p class='right'> " + i + "</p> " +  "</li>";
+    
+  }
+
+  
+
+  est.innerHTML = str;
+  
+  
+}
